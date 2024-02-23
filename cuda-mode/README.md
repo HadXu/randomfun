@@ -1,5 +1,9 @@
 # CUDA-mode 
 
+```bash
+docker run --runtime=nvidia --gpus all --shm-size 1g -it -v $PWD:/workspace -w /workspace nvcr.io/nvidia/pytorch:23.08-py3 bash
+```
+
 [youtube](https://www.youtube.com/@CUDAMODE)
 
 1. profile cuda kernel in pytorch

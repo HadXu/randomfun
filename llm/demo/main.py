@@ -2,7 +2,7 @@ from openai import OpenAI
 
 client = OpenAI(
     base_url="https://api-inference.huggingface.co/models/mistralai/Mixtral-8x7B-Instruct-v0.1/v1/",
-    api_key="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"
+    api_key=""
 )
 
 PROMPT = """

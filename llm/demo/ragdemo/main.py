@@ -3,10 +3,9 @@ import qdrant_client
 """
 """
 
-key = "CQl_5MMOud-NZGPH4Bbd4mYDqtGhsH0XUUmGNYKWFRUjAQEFZ_45uw"
+key = ""
 
-# client = qdrant_client.QdrantClient(":memory:", prefer_grpc=True)
-client = qdrant_client.QdrantClient("https://7a908601-e33d-406b-b127-bd5340b2c215.us-east4-0.gcp.cloud.qdrant.io:6333", api_key=key)
+client = qdrant_client.QdrantClient(":memory:", prefer_grpc=True)
 x = client.get_collections()
 
 print(x)

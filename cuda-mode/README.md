@@ -12,3 +12,5 @@ docker run --runtime=nvidia --gpus all --shm-size 1g -it -v $PWD:/workspace -w /
 4. Memory ( shared memory, HBM and etc )
 5. Matrix multiplication with shared memory [notebook](notebook/shared%20matrix%20multiplication.ipynb)
 <img src="img/tiled-matrix-multiplication.jpg" alt="drawing" width="300"/>
+
+9. [CUDA Redcution](https://github.com/cuda-mode/lectures/tree/main/lecture9)

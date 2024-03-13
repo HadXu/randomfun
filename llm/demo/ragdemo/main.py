@@ -32,7 +32,7 @@ import os
 import openai
 
 openai.api_base = 'https://proxy.openmao.icu/v1'
-openai.api_key = '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'
+openai.api_key = ''
 
 # Fill the environmental variable with your own OpenAI API key
 # See: https://platform.openai.com/account/api-keys
